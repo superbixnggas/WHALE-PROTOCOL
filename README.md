@@ -81,19 +81,39 @@ Whale Protocol is a terminal-themed meme website with a retro CRT aesthetic. Bui
 ## 📁 PROJECT STRUCTURE
 
 ```
-public/
-├── index.html                    # Main terminal interface
-├── truth_terminal.html           # Lore & NFT examples
-├── whale_protocol_log.html       # System logs
-├── whale_protocol_session_001.html
-├── whale_protocol_dump.html
-├── css/
-│   └── style.css                 # CRT effects & styling
-└── js/
-    ├── main.js                   # Terminal & feed logic
-    ├── data.js                   # Content & ASCII art
-    └── truth.js                  # Truth terminal logic
+WHALE-PROTOCOL/
+│
+├── 📄 README.md                          # This file
+│
+└── 📂 public/                            # Website root folder
+    │
+    ├── 📂 css/                           # Stylesheets
+    │   └── 📄 style.css                  # CRT effects, scanlines, animations
+    │
+    ├── 📂 js/                            # JavaScript files
+    │   ├── 📄 main.js                    # Terminal logic & live feed generator
+    │   ├── 📄 data.js                    # Vocabulary, ASCII art, commands
+    │   └── 📄 truth.js                   # Truth Terminal page logic
+    │
+    ├── 📄 index.html                     # 🏠 Main page - Terminal interface
+    ├── 📄 truth_terminal.html            # 📜 Lore page - Story & NFT examples
+    ├── 📄 whale_protocol_log.html        # 📋 System log page
+    ├── 📄 whale_protocol_session_001.html # 📋 Session log page
+    └── 📄 whale_protocol_dump.html       # 📋 Data dump page
 ```
+
+---
+
+## 📝 FILE DESCRIPTIONS
+
+| File | Size | Description |
+|------|------|-------------|
+| `public/index.html` | 180KB | Main terminal with 3-column layout, live feed, command terminal |
+| `public/truth_terminal.html` | 40KB | Whale story lore with 3 NFT ASCII art examples |
+| `public/css/style.css` | 2KB | CRT scanlines, flicker effects, custom fonts |
+| `public/js/main.js` | 5KB | Live feed generator, terminal command handler |
+| `public/js/data.js` | 10KB | 22 ASCII art designs, 21 terminal commands, vocabulary |
+| `public/js/truth.js` | 4KB | Truth Terminal page animations |
 
 ---
 
